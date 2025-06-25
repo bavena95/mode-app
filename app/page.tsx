@@ -17,10 +17,10 @@ export default function HomePage() {
           </Link>
           <div className="flex items-center gap-2">
             <Button variant="ghost" asChild className="text-slate-300 hover:text-white">
-              <Link href="/auth/login">Login</Link>
+              <Link href="/login">Login</Link>
             </Button>
             <Button asChild className="bg-gradient-to-r from-purple-600 to-pink-500 text-white">
-              <Link href="/auth/register">Get Started Free</Link>
+              <Link href="/register">Get Started Free</Link>
             </Button>
           </div>
         </div>

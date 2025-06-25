@@ -169,14 +169,14 @@ function AuthButtons() {
         variant="outline"
         size="sm"
         className="bg-transparent text-slate-300 hover:bg-white/10 hover:text-white border-white/20 h-8"
-        onClick={() => router.push('/auth/login')}
+        onClick={() => router.push('/login')}
       >
         Login
       </Button>
       <Button
         size="sm"
         className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white h-8"
-        onClick={() => router.push('/auth/register')}
+        onClick={() => router.push('/register')}
       >
         Sign Up
       </Button>

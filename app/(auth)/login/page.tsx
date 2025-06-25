@@ -49,7 +49,7 @@ export default function LoginPage() {
                 </div>
               </div>
               <div className="flex justify-end">
-                <Link href="/auth/forgot-password" className="text-sm text-purple-400 hover:text-purple-300">
+                <Link href="/forgot-password" className="text-sm text-purple-400 hover:text-purple-300">
                   Forgot your password?
                 </Link>
               </div>
@@ -85,7 +85,7 @@ export default function LoginPage() {
           <div className="text-center mt-6 pt-6 border-t border-white/10">
             <p className="text-slate-400 text-sm">
               Don't have an account?{" "}
-              <Link href="/auth/register" className="text-purple-400 hover:text-purple-300">
+              <Link href="/register" className="text-purple-400 hover:text-purple-300">
                 Sign up for free
               </Link>
             </p>
